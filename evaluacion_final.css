@@ -1,59 +1,148 @@
 body {
-    margin: 0px;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+	
+	padding-top: 80px;
+}
+
+h1 {
+	font-size: 2.3em;
+  line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
 
 .headerEvaluacion {
-    margin: none;
-    background-color: aquamarine;
-    height: 150px;
+	background:#FFB612;
+	color: white;
+	height: 150px;	
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;    
+}	
+	#headerEvaluacion a {
+		color: white;
+        margin-top: 10px;
+	}
+	
+    .mainEvaluacion {
+        width: 980px;
+        height: 680px;
+    }	
+/*
+ * Logo
+ */
+#logo-header {   
+	float: right;
+	padding-top: 30px;
+	text-decoration: none;
 }
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header{
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header  {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
 
-.titulo {
-    position: fixed;
-}
-
-.mainEvaluacion {
-    width: 980px;
-    height: 680px;
-}
+    .site-nombre{
+        display: inline-block;
+		font-weight: 300;
+		font-size: 1.8em;
+		color: white;
+        margin-top: 60px;
+        margin-left: 350px;
+        text-align: center;
+    }
 
 .navEvaluacion {
     height: 60px;
-    background-color: brown;
+    margin-top: 20px;
+	float: left;
+}
+	.navEvaluacion ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		.navEvaluacion ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			.navEvaluacion ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				.navEvaluacion ul li a:hover {
+					background: #0b76a6;
+				}
+	
+#main-content {
+	background: white;
+	width: 980px;
+    height: 680px;	
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
-.articleEvaluacion {
-    width: 580px;
-    height: 680px;
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+	
+.articleEvaluacion{
+    margin-left: 10%;
 }
-
-.asideEvaluacion {
-    width: 400px;
-    height: 680px;
-   position: absolute;
-}
-
-.imgEvaluacion {
-    float: right;
-}
-
-.divNav {
-    position: fixed;
-    text-align: center;
-}
-
-.contact_form {
+.articleEvaluacion .asideEvaluacion {
+    float: left;
+    width: 30%;
+    margin-left: -50px;
+    padding-right: 80px;
+    font-size: .8em;
+    line-height: 1.8em;
+    color: #999;
+  }
+  .contact_form {
     width: 460px;
     height: auto;
-    margin: 80px auto;
+    float: right;
+    margin: 20px auto;
     border-radius: 10px;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 20px;
-    background-color: #fbfbfb;
-    padding-left: 30px;
+    background-color: #fbfbfb;    
 }
-
-input {
+  input {
     background-color: #fbfbfb;
     width: 408px;
     height: 40px;
@@ -124,10 +213,16 @@ p {
 }
 
 .footerEvaluacion {
-    background-color: rgb(34, 215, 73);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
-  color: white;   
+	background: rgb(231, 46, 46);
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top:300px;
 }
+	.footerEvaluacion p {
+		margin: 0;
+	}
+	
+	.footerEvaluacion a {
+		color: white;
+	}
