@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="evaluacion_final.css">
+    <title>Evaluacion final</title>
+</head>
+
+<body>
+    <header class="headerEvaluacion">
+        <div class="imgEvaluacion">
+            <img width="100" height="60" src="images/logo.png" alt="caja-piura">
+        </div>
+        <div class="titulo">
+            <h3>CAJA PIURA</h3>
+        </div>
+    </header>
+    <nav class="navEvaluacion">
+        <div class="divNav">
+            <a href="evaluacion_final2.html">Inicio</a> -
+
+            <a href="https://www.cajapiura.pe/creditos">Creditos</a> -
+
+            <a href="https://www.cajapiura.pe/ahorros">Ahorros</a>
+            <a href="https://www.cajapiura.pe/servicios">Servicios</a> -
+
+            <a href="https://www.cajapiura.pe/tarjetas">Tarjetas</a>
+
+        </div>
+    </nav>
+    <main class="mainEvaluacion">
+        <article class="articleEvaluacion">
+            <div class="contact_form">
+                <div class="formulario">
+                    <h1>Formulario de contacto</h1>
+                    <h3>Formulario de contacto, donde se solicita el nombre y celular del usuario</h3>
+                    <form>
+                        <p>
+                            <label for="nombre" class="colocar_nombre">Nombres
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                                placeholder="Escribe tus nombres">
+                        </p>
+                        <p>
+                            <label for="apellido" class="colocar_apellido">Apellidos
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_apellido" id="apellido" required="obligatorio"
+                                placeholder="Escribe tus apellidos">
+                        </p>
+                        <p>
+                            <label for="email" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="email" name="introducir_nombre" id="email" required="obligatorio"
+                                placeholder="Escribe tu email">
+                        </p>
+                        <p>
+                            <label for="telefone" class="colocar_telefono">Teléfono
+                            </label>
+                            <input type="number" name="introducir_telefono" id="telefono"
+                                placeholder="Escribe tu teléfono">
+                        </p>                       
+                        <button type="button" name="enviar_formulario" id="enviar" onclick="obtenerDatos()">
+                            <p>Enviar</p>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </article>
+        <aside class="asideEvaluacion">
+            <img src="images/CAJA-PIURA_ASISTENTE-VIRTUAL_720X310.png" alt="caja-piura">
+        </aside>
+    </main>
+    <footer class="footerEvaluacion">
+        <h3>Creado por Cortez Palacios Luis Angel</h3>
+    </footer>
+</body>
+
+</html>

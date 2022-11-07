@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+}
+
+.headerEvaluacion {
+    margin: none;
+    background-color: aquamarine;
+    height: 150px;
+}
+
+.titulo {
+    position: fixed;
+}
+
+.mainEvaluacion {
+    width: 980px;
+    height: 680px;
+}
+
+.navEvaluacion {
+    height: 60px;
+    background-color: brown;
+}
+
+.articleEvaluacion {
+    width: 580px;
+    height: 680px;
+}
+
+.asideEvaluacion {
+    width: 400px;
+    height: 680px;
+   position: absolute;
+}
+
+.imgEvaluacion {
+    float: right;
+}
+
+.divNav {
+    position: fixed;
+    text-align: center;
+}
+
+.contact_form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+}
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4bc669;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    float: center;
+}
+
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #cf4049;
+    border-color: #cf4049;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
+button p {
+    color: #fff;
+}
+
+
+span {
+    color: #ab4493;
+}
+
+
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+h1 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #cf4049;
+}
+
+
+h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+}
+
+
+p {
+    font-size: 14px;
+    color: #0e0e0e;
+}
+
+.footerEvaluacion {
+    background-color: rgb(34, 215, 73);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  color: white;   
+}
